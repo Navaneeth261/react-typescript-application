@@ -1,0 +1,27 @@
+.container {
+  margin: 20px;
+  width: fit-content;
+}
+
+.container table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.container th,
+.container td {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.container th {
+  background-color: darkgray;
+}
+
+.container th span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}

@@ -1,0 +1,45 @@
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid gray;
+  width: fit-content;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.formField {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.formField label {
+  font-weight: bold;
+  width: 80px;
+}
+
+.formField input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.container button {
+  border: none;
+  background-color: blue;
+  color: white;
+  height: 40px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 4px;
+}
